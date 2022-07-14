@@ -1,0 +1,42 @@
+html {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-image: url("https://thumbs.dreamstime.com/z/fondo-con-n%C3%BAmeros-el-espacio-de-la-copia-en-un-aislado-blanco-diverso-orden-son-los-diversas-formas-y-colores-centro-140026580.jpg");
+    background-size: cover;
+  }
+
+  body {
+    width: 50%;
+    margin: 20% auto;
+    background-color: white;
+    height: 100%;
+  }
+
+  h1 {
+    text-align: center;
+    color: red;
+  }
+
+  .lestResult {
+    color: white;
+    padding: 3px;
+  }
+
+  .guessSubmit {
+    background-color: aqua;
+    width: 30%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .guessSubmit:hover {
+    background-color: blue;
+    color: white;
+  }
+
+  .form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }

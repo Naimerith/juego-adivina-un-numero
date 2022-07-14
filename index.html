@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adivina un Número</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <h1>Juego de Adivinanza de Números</h1>
+  <p>Hemos seleccionado un número aleatorio del 1 al 100. Vea si puede adivinarlo en 10 turnos o menos. Le diremos si su
+    estimación fue demasiado alta o demasiado baja</p>
+
+  <div class="form">
+    <label for="guessField"> Ingrese una suposición: </label>
+    <input type="text" id="guessField" class="guessField">
+    <input type="submit" value="Adivinar / Enviar" class="guessSubmit">
+  </div>
+
+  <div class="resultParas">
+    <p class="guesses"></p>
+    <p class="lastResult"></p>
+    <p class="lowOrHi"></p>
+  </div>
+
+</html>
